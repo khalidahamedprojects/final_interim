@@ -1,0 +1,97 @@
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36435 : Starting execution of workflow [wf_load_dw_tables_2387503] in folder [pro] last saved by user [Administrator].
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_44206 : Workflow wf_load_dw_tables_2387503 started with run id [216], run instance name [], run type [Concurrent Run Disabled].
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_44195 : Workflow [wf_load_dw_tables_2387503] service level [SLPriority:5,SLDispatchWaitTime:1800].
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_44253 : Workflow started. Clients will be notified
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36330 : Start task instance [Start]: Execution started.
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36318 : Start task instance [Start]: Execution succeeded.
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36505 : Link [Start --> s_m_dept_dim_2387503]: empty expression string, evaluated to TRUE.
+2025-03-17 20:06:18 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_dept_dim_2387503] is waiting to be started.
+2025-03-17 20:06:18 : INFO : (5156 | 648) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_dept_dim_2387503]: started a process with pid [9516] on node [node01].
+2025-03-17 20:06:18 : INFO : (5156 | 648) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_dept_dim_2387503]: Execution started.
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 17 20:06:18 2025)]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [DISP_20305 The [Preparer] DTM with process id [9516] is running on node [node01].
+ : (Mon Mar 17 20:06:18 2025)]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6721 Started [Connect to Repository].]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6722 Finished [Connect to Repository].  It took [0.111018] seconds.]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.015981] seconds.]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6721 Started [Partition Group Formation].]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6722 Finished [Partition Group Formation].  It took [0.0210102] seconds.]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-17 20:06:19 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_dept_dim_2387503] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 17 20:06:19 2025)]
+2025-03-17 20:06:20 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_dept_dim_2387503]: Execution succeeded.
+2025-03-17 20:06:21 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36506 : Link [s_m_dept_dim_2387503 --> s_m_student_dim]: condition is TRUE for the expression [$s_m_dept_dim_2387503.Status=SUCCEEDED].
+2025-03-17 20:06:21 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_student_dim] is waiting to be started.
+2025-03-17 20:06:21 : INFO : (5156 | 648) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_student_dim]: started a process with pid [1152] on node [node01].
+2025-03-17 20:06:21 : INFO : (5156 | 648) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_student_dim]: Execution started.
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 17 20:06:21 2025)]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [DISP_20305 The [Preparer] DTM with process id [1152] is running on node [node01].
+ : (Mon Mar 17 20:06:21 2025)]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6721 Started [Connect to Repository].]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6722 Finished [Connect to Repository].  It took [0.118999] seconds.]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0209939] seconds.]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6721 Started [Partition Group Formation].]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6722 Finished [Partition Group Formation].  It took [0.0230019] seconds.]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-17 20:06:21 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_student_dim] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 17 20:06:21 2025)]
+2025-03-17 20:06:22 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_student_dim]: Execution succeeded.
+2025-03-17 20:06:23 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36506 : Link [s_m_student_dim --> s_m_marks_fact]: condition is TRUE for the expression [$s_m_student_dim.Status=SUCCEEDED].
+2025-03-17 20:06:23 : INFO : (5156 | 3252) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_marks_fact] is waiting to be started.
+2025-03-17 20:06:23 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_marks_fact]: started a process with pid [4844] on node [node01].
+2025-03-17 20:06:23 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_marks_fact]: Execution started.
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 17 20:06:23 2025)]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [DISP_20305 The [Preparer] DTM with process id [4844] is running on node [node01].
+ : (Mon Mar 17 20:06:23 2025)]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6721 Started [Connect to Repository].]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6722 Finished [Connect to Repository].  It took [0.101999] seconds.]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.090997] seconds.]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6721 Started [Partition Group Formation].]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6722 Finished [Partition Group Formation].  It took [0.0270009] seconds.]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-17 20:06:24 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_marks_fact] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 17 20:06:24 2025)]
+2025-03-17 20:06:25 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_marks_fact]: Execution succeeded.
+2025-03-17 20:06:25 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36506 : Link [s_m_marks_fact --> s_m_sub_avg_agg]: condition is TRUE for the expression [$s_m_marks_fact.Status=SUCCEEDED].
+2025-03-17 20:06:25 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_sub_avg_agg] is waiting to be started.
+2025-03-17 20:06:25 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_sub_avg_agg]: started a process with pid [12440] on node [node01].
+2025-03-17 20:06:25 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_sub_avg_agg]: Execution started.
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 17 20:06:25 2025)]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [DISP_20305 The [Preparer] DTM with process id [12440] is running on node [node01].
+ : (Mon Mar 17 20:06:25 2025)]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6721 Started [Connect to Repository].]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6722 Finished [Connect to Repository].  It took [0.145994] seconds.]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0290031] seconds.]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6721 Started [Partition Group Formation].]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6722 Finished [Partition Group Formation].  It took [0.0190022] seconds.]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-17 20:06:26 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_avg_agg] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 17 20:06:26 2025)]
+2025-03-17 20:06:27 : INFO : (5156 | 648) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_sub_avg_agg]: Execution succeeded.
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36506 : Link [s_m_sub_avg_agg --> s_m_sub_pass_per_agg]: condition is TRUE for the expression [$s_m_sub_avg_agg.Status=SUCCEEDED].
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36388 : Session task instance [s_m_sub_pass_per_agg] is waiting to be started.
+2025-03-17 20:06:28 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36682 : Session task instance [s_m_sub_pass_per_agg]: started a process with pid [13824] on node [node01].
+2025-03-17 20:06:28 : INFO : (5156 | 6892) : (IS | IS) : node01 : LM_36330 : Session task instance [s_m_sub_pass_per_agg]: Execution started.
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6793 Fetching initialization properties from the Integration Service. : (Mon Mar 17 20:06:28 2025)]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [DISP_20305 The [Preparer] DTM with process id [13824] is running on node [node01].
+ : (Mon Mar 17 20:06:28 2025)]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [PETL_24036 Beginning the prepare phase for the session.]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6721 Started [Connect to Repository].]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6722 Finished [Connect to Repository].  It took [0.114006] seconds.]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6794 Connected to repository [REP] in domain [Domain] as user [Administrator] in security domain [Native].]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6721 Started [Fetch Session from Repository].]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0289981] seconds.]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6721 Started [Partition Group Formation].]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6722 Finished [Partition Group Formation].  It took [0.0199869] seconds.]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [PETL_24037 Finished the prepare phase for the session.]
+2025-03-17 20:06:28 : INFO : (5156 | 10056) : (IS | IS) : node01 : LM_36488 : Session task instance [s_m_sub_pass_per_agg] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Mon Mar 17 20:06:28 2025)]
+2025-03-17 20:06:29 : INFO : (5156 | 12652) : (IS | IS) : node01 : LM_36318 : Session task instance [s_m_sub_pass_per_agg]: Execution succeeded.
+2025-03-17 20:06:30 : INFO : (5156 | 5336) : (IS | IS) : node01 : LM_36318 : Workflow [wf_load_dw_tables_2387503]: Execution succeeded.
